@@ -1,6 +1,6 @@
 {
   "name": "@rbxts/event",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "main": "out/init.lua",
   "author": "Icejiynn",
   "license": "MIT",
