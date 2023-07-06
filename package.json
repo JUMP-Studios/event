@@ -1,6 +1,16 @@
 {
-  "name": "@rbxts/event",
+  "name": "@jumpstudios/event",
   "version": "1.2.5",
+  "description": "Expands on Roblox's built in RBXScriptConnections with various methods, making the management of connections easier to keep up with. \n Also effectively implements 'meta-events' which events that do not depend on instances.",
+  "keywords": [
+		"event",
+		"signal",
+		"roblox",
+		"typescript",
+		"roblox-ts",
+		"rbxtsc",
+		"ts"
+	],
   "main": "out/init.lua",
   "author": "Icejiynn",
   "license": "MIT",
@@ -14,6 +24,10 @@
     "out",
     "!**/*.tsbuildinfo"
   ],
+  "repository": {
+    "url": "https://github.com/JUMP-Studios/event.git",
+    "type": "git"
+  },
   "publishConfig": {
     "access": "public"
   },
