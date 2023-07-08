@@ -1,6 +1,6 @@
 {
   "name": "@jumpstudios/event",
-  "version": "1.2.7",
+  "version": "1.2.8",
   "description": "Expands on Roblox's built in RBXScriptConnections with various methods, making the management of connections easier to keep up with. \n Also effectively implements 'meta-events' which events that do not depend on instances.",
   "keywords": [
     "event",
