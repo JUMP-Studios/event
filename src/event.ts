@@ -37,8 +37,8 @@ export default class Event<
 	Signal extends RBXScriptSignal | Callback,
 	F extends void | Callback = void,
 > extends EventObject {
-	connection?: MaybeConnection<Signal>;
-	callbacks: Array<EventCallback> = [];
+	private connection?: MaybeConnection<Signal>;
+	private callbacks: Array<EventCallback> = [];
 
 	constructor(signal?: Signal, once?: boolean) {
 		super();

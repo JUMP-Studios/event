@@ -1,3 +1,3 @@
-const Event = import("./event").expect().default;
+import Event from "./event";
 
 export = Event;
